@@ -46,7 +46,7 @@
 			$result = mysqli_query($conn, $sql);
 
 			while($row = mysqli_fetch_assoc($result)){
-				echo "<li id = " . $row["id"] . ">" . $row["name"] . "on id " . $row["id"] . " <button id = " . $row["id"] . "> delete</button> </li>";
+				echo "<li id = " . $row["id"] . ">" . $row["name"] . " on id " . $row["id"] . " <button id = " . $row["id"] . "> delete</button> </li>";
 			}
 
 			mysqli_close();
@@ -56,7 +56,7 @@
 	</ul>
 
 	<script>
-		
+
 		$('').click( function(){
 
 		$list_id = $row["id"];

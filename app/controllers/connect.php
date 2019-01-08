@@ -1,9 +1,9 @@
 <?php
 
-$host = "localhost";
-$username = "root";
-$password = "";
-$dbname = "todo_app_db";
+$host = "db4free.net";
+$username = "sarahdidulo";
+$password = "newpass2019";
+$dbname = "todoapplist";
 
 $conn = mysqli_connect($host, $username, $password, $dbname);
 
